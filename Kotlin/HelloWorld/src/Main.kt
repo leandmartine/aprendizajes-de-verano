@@ -62,3 +62,10 @@ fun main() {
 fun myFunc (){
     println("Es una funcion")
 }
+
+public class MyClass(nombre: String, edad: Int) {
+    var nombre = String
+    var edad = Int
+}
+
+var myClass = MyClass ("leandro", 12)
